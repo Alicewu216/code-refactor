@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*This makes the page background white*/
+body {
+    background-color: #d9dcd6;
+}
+/*This helps modify the font on the very top section; make the background deep blue and words white as well as leaving space between the word and the edge*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Placing Horiseon, respecting top and bottom margin. changing font size, make word white*/
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*set margin size and font, make options align on the right*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+/*make options in one line*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*make links white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*set text paragraph font size*/
+p {
+    font-size: 16px;
+}
+/*This sets the image as a background and adjustthe size, position, and margin*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*help elements to be on the left with margin*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*help elements to be on the right with margin*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*set suze and margin as well as position display for main content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*position benefit box to the right,set sixe, margin, font, and color*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*set margin and text color for lead generation*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*set margin and text color for brand awareness*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*set margin and text color for cost management*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*put benefit text info in center with margin*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*benefit image size and margin*/
+.benefitimg {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+/*This set margins size font and color for text in search engine optimization section*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This set margins size font and color for text in online reputation management section*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This set margins size font and color for text social media marketing section*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This limits the size of content image so they stay in the block*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*This limits the size of content image so they stay in the block*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*This limits the size of content image so they stay in the block*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*This sets margin and fontsize for all three subtitle in main content*/
+.contentsize {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*This sets font size, edge size, and ut test to the center*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*specifically sets font size for this sentence*/
+.footer h2 {
+    font-size: 20px;
+}
