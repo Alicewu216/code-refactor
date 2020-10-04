@@ -105,7 +105,7 @@ h3 {
     max-width: 150px;
     max-height: 200px;
 }
-
+/*This set margins size font and color for text in search engine optimization section*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,7 +114,7 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This set margins size font and color for text in online reputation management section*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,7 +123,7 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This set margins size font and color for text social media marketing section*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,33 +132,25 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This limits the size of content image so they stay in the block*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*This limits the size of content image so they stay in the block*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*This limits the size of content image so they stay in the block*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*This sets margin and fontsize for all three subtitle in main content*/
+.contentsize {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
