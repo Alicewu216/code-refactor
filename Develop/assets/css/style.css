@@ -3,53 +3,46 @@
     padding: 0;
     margin: 0;
 }
-
+/*This makes the page background white*/
 body {
     background-color: #d9dcd6;
 }
-
+/*This helps modify the font on the very top section; make the background deep blue and words white as well as leaving space between the word and the edge*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/*Placing Horiseon, respecting top and bottom margin. changing font size, make word white*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/*set margin size and font, make options align on the right*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
 }
-
+/*make options in one line*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*make links white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*set text paragraph font size*/
 p {
     font-size: 16px;
 }
-
+/*This sets the image as a background and adjustthe size, position, and margin*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +51,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*help elements to be on the left with margin*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*help elements to be on the right with margin*/
 .float-right {
     float: right;
     margin-left: 25px;
